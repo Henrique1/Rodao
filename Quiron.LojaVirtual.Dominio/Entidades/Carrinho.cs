@@ -14,6 +14,7 @@ namespace Quiron.LojaVirtual.Dominio.Entidades
         {
             ItemCarrinho item = _itemCarrinho.FirstOrDefault(p => p.Produto.ProdutoId == produto.ProdutoId);
 
+
             if (item == null)
             {
                 _itemCarrinho.Add(new ItemCarrinho
