@@ -163,6 +163,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Empresa.cshtml" />
     <Content Include="Views\Carrinho\Resumo.cshtml" />
+    <Content Include="Views\Carrinho\FecharPedido.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
